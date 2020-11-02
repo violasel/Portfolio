@@ -1,0 +1,238 @@
+/* {
+  border: 2px solid blue;
+}
+*/
+
+h1,
+h2,
+h3 body,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgb(2, 89, 116, 1);
+}
+
+h1 span {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px 0px 16px;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.profissao {
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.periodo {
+  font-size: 15px;
+}
+
+.t60 {
+  color: rgba(2, 89, 116, 0.8);
+  margin-top: -10px;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 30px 50px;
+  display: flex;
+  /* alinhamento vertical */
+  align-items: center;
+  /* justify-content: center; alinhamento horizontal */
+}
+
+.fotoeu {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 2px solid #daa520;
+  margin-bottom: -80px;
+  margin-right: 20px;
+}
+
+body {
+  background-color: #d3e8eb;
+  margin: 0px;
+}
+
+.dados {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  padding: 20px 50px;
+  display: flex;
+}
+
+.coluna-menor {
+  margin-top: 50px;
+  width: 350px;
+}
+
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+
+.experiencias .linha {
+  border-color: #025974;
+}
+
+.formacao .linha {
+  border-color: #daa520;
+}
+
+.formacao {
+  margin-top: 50px;
+}
+
+.coluna-menor img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+.coluna-menor li {
+  margin-top: 50px;
+  display: flex;
+}
+
+.coluna-maior {
+  margin-left: 70px;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coluna-maior h2 {
+  font-size: 36px;
+  margin: 0px 0px 20px 10px;
+}
+
+.habilidade {
+  width: 220px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 10px;
+}
+
+.habilidade li {
+  margin-top: 16px;
+}
+
+.habilidade li:first-child {
+  margin-top: 0px;
+}
+
+.habilidade h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.habilidade p {
+  font-size: 20px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra {
+  width: 20%;
+  height: 4px;
+  background-color: #025974;
+  margin-top: 5px;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.projeto {
+  width: 390px;
+  background-color: white;
+  border-radius: 16px;
+  margin: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projeto p {
+  margin-bottom: 20px;
+}
+
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background-color: #025974;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.projeto img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #025974;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
